@@ -12,7 +12,7 @@ const AUDIENCES = [
 ];
 
 const DURATIONS  = ['7 days', '14 days', '30 days', '60 days', '90 days'];
-const PLACEMENTS = ['Homepage Banner', 'Sidebar Ad', 'Footer Ad', 'In-Feed Ad', 'Pop-up Ad'];
+const PLACEMENTS = ['In Instagram Reels'];
 
 const adSchema = new mongoose.Schema(
   {

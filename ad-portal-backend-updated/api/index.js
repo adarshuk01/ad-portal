@@ -1,3 +1,7 @@
-import app from '../app.js'; // your main express app
+const app = require('../app');
+const connectDB = require('../config/db');
 
-export default app;
+module.exports = async (req, res) => {
+  await connectDB();   // 🔥 MUST before every request
+  return app(req, res);
+};

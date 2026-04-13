@@ -2,7 +2,7 @@
 // All calls go to the backend at BASE_URL.
 // Token is read from localStorage on every call so it's always fresh.
 
-const BASE_URL = import.meta.env.VITE_API_URL || 'http://localhost:5000/api';
+const BASE_URL = import.meta.env.VITE_API_URL || 'https://ad-portal-gr17.vercel.app/api';
 
 // ── Token helpers ──────────────────────────────────────────────────────────
 export const getToken   = () => localStorage.getItem('token');

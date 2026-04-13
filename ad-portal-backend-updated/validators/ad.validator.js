@@ -4,7 +4,7 @@ const { sendError } = require('../utils/apiResponse');
 const CATEGORIES = ['Technology','Fashion','Food & Beverage','Health & Wellness','Real Estate','Education','Travel','Finance','Entertainment','Automotive','Other'];
 const AUDIENCES  = ['General Public','Young Adults (18-25)','Professionals (25-45)','Senior Citizens (55+)','Parents & Families','Students','Business Owners'];
 const DURATIONS  = ['7 days','14 days','30 days','60 days','90 days'];
-const PLACEMENTS = ['Homepage Banner','Sidebar Ad','Footer Ad','In-Feed Ad','Pop-up Ad'];
+const PLACEMENTS = ['In Instagram Reels',];
 
 const validate = (req, res, next) => {
   const errors = validationResult(req);
